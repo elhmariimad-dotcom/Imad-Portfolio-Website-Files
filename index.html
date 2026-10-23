@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of a junior web developer building responsive websites and Python data projects.">
+  <title>Imad | Junior Web Developer</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="logo" href="#home">Imad<span>.</span></a>
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a class="nav-contact" href="#contact">Contact me</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> AVAILABLE FOR FREELANCE PROJECTS</p>
+        <h1>Hi, I'm Imad.<br><span>I build for the web.</span></h1>
+        <p class="hero-description">I'm a junior developer creating clean, responsive websites and practical Python projects. I enjoy turning ideas into useful digital experiences.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span>↗</span></a>
+          <a class="button button-secondary" href="#contact">Let's talk</a>
+        </div>
+        <div class="quick-facts">
+          <div><strong>Web</strong><span>HTML · CSS · JavaScript</span></div>
+          <div><strong>Data</strong><span>Python · Pandas · SQL</span></div>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Decorative code card">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="code-card">
+          <div class="code-top"><span></span><span></span><span></span><small>developer.js</small></div>
+          <pre><code><span class="code-purple">const</span> developer = {
+  name: <span class="code-green">"Imad"</span>,
+  role: <span class="code-green">"Junior Developer"</span>,
+  skills: [
+    <span class="code-green">"HTML"</span>,
+    <span class="code-green">"CSS"</span>,
+    <span class="code-green">"JavaScript"</span>,
+    <span class="code-green">"Python"</span>
+  ],
+  mindset: <span class="code-green">"Always learning"</span>
+};</code></pre>
+          <div class="code-footer"><span class="pulse"></span> Building something useful</div>
+        </div>
+        <div class="floating-badge badge-html">HTML</div>
+        <div class="floating-badge badge-python">Python</div>
+        <div class="floating-badge badge-js">JS</div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="about">
+      <div class="container about-grid">
+        <div>
+          <p class="eyebrow">A LITTLE ABOUT ME</p>
+          <h2>Curious mind.<br><span>Practical solutions.</span></h2>
+        </div>
+        <div class="about-copy">
+          <p>I'm an IT student interested in web development, programming, and data. I focus on writing understandable code, learning through real projects, and building websites that work well on phones and computers.</p>
+          <p>I'm currently growing my portfolio with hands-on projects and looking for opportunities to help people and small businesses online.</p>
+          <a class="text-link" href="#contact">Have a project in mind? <span>→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">WHAT I WORK WITH</p>
+        <h2>Skills I'm building</h2>
+        <p>A practical toolkit for websites, data tasks, and small automation projects.</p>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card"><div class="skill-icon icon-blue">⌘</div><h3>Web development</h3><p>Responsive layouts and interactive pages.</p><div class="tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span></div></article>
+        <article class="skill-card"><div class="skill-icon icon-gold">⌁</div><h3>Python & data</h3><p>Basic data cleaning, analysis, and visualization.</p><div class="tags"><span>Python</span><span>Pandas</span><span>Matplotlib</span></div></article>
+        <article class="skill-card"><div class="skill-icon icon-green">▤</div><h3>Databases</h3><p>Working with structured data and queries.</p><div class="tags"><span>SQL</span><span>MySQL</span><span>MERISE</span></div></article>
+        <article class="skill-card"><div class="skill-icon icon-purple">⌘</div><h3>Tools & workflow</h3><p>Learning, testing, and managing project files.</p><div class="tags"><span>GitHub</span><span>VS Code</span><span>Linux basics</span></div></article>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">SELECTED WORK</p>
+          <h2>Projects in my portfolio</h2>
+          <p>These cards are ready for your project links. Replace the sample details as your work develops.</p>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-visual cafe-visual"><div class="cafe-window"><span class="cafe-mark">Café<br><b>Lumière</b></span><span class="cafe-cup">☕</span><span class="cafe-caption">COFFEE · MOMENTS · COMMUNITY</span></div></div>
+            <div class="project-body"><div class="project-meta"><span>WEB DEVELOPMENT</span><span>01</span></div><h3>Café Lumière</h3><p>A modern café website concept with a menu, product categories, and contact links.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><a class="text-link project-link" href="https://elhmariimad-dotcom.github.io/cafe-lumiere/" target="_blank" rel="noopener noreferrer">View live site <span>↗</span></a></div>
+          </article>
+          <article class="project-card">
+            <div class="project-visual data-visual"><div class="chart-card"><div class="chart-title">DATA OVERVIEW <span>•••</span></div><div class="chart-bars"><i style="height:36%"></i><i style="height:58%"></i><i style="height:45%"></i><i style="height:78%"></i><i style="height:62%"></i><i style="height:92%"></i><i style="height:70%"></i></div><div class="chart-line"></div><div class="chart-labels"><span>MON</span><span>TUE</span><span>WED</span><span>THU</span><span>FRI</span><span>SAT</span><span>SUN</span></div></div></div>
+            <div class="project-body"><div class="project-meta"><span>DATA ANALYSIS</span><span>02</span></div><h3>Python Data Analysis</h3><p>A planned project to clean a CSV dataset, explore patterns, and present charts.</p><div class="tags"><span>Python</span><span>Pandas</span><span>Matplotlib</span></div><span class="project-note">Coming soon — add your repository when ready.</span></div>
+          </article>
+          <article class="project-card">
+            <div class="project-visual code-visual"><div class="terminal"><div class="terminal-head"><span></span><span></span><span></span><b>terminal</b></div><p><i>$</i> python automate.py</p><p class="terminal-success">✓ Task completed</p><p><i>$</i> _</p></div></div>
+            <div class="project-body"><div class="project-meta"><span>AUTOMATION</span><span>03</span></div><h3>Python Automation</h3><p>A space for a small script that saves time on a repetitive task.</p><div class="tags"><span>Python</span><span>Automation</span></div><span class="project-note">Coming soon — add a real project here.</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container contact-section" id="contact">
+      <div class="contact-panel">
+        <div><p class="eyebrow">LET'S CONNECT</p><h2>Have a project?<br><span>Let's make it happen.</span></h2><p>I'm open to beginner-friendly freelance work, collaborations, and learning opportunities.</p></div>
+        <div class="contact-actions">
+          <a class="button button-primary" href="mailto:elhmariimad@gmail.com">Email me <span>↗</span></a>
+          <a class="button button-secondary" href="https://github.com/elhmariimad-dotcom" target="_blank" rel="noopener noreferrer">GitHub profile</a>
+          <a class="button button-secondary" href="https://www.upwork.com/freelancers/~018f379ea0345933d5?mp_source=share" target="_blank" rel="noopener noreferrer">Upwork</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner"><a class="logo" href="#home">Imad<span>.</span></a><p>Designed and built with HTML, CSS & JavaScript.</p><a href="#home">Back to top ↑</a></div>
+  </footer>
+</body>
+</html>
